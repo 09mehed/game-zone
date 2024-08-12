@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+.container{
+    width: 85%;
+    margin: 1rem auto;
+}
+/* navbar area start */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.navbar-first img{
+    width: 90px;
+}
+.navbar-first .navbar-first-text{
+    font-size: 2rem;
+    color: #0B0223;
+}
+.navbar-first .navbar-first-text span{
+    color: #FF42A5;
+}
+.navbar-second ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.navbar-second ul li{
+    margin: 0 1.5rem;
+    font-size: 1rem;
+    color: #372f4A;
+    font-weight: 500;
+}
+.navbar-second .follow{
+    background-color: #E7E6E9;
+    padding: .7rem 1.5rem;
+    border-radius: 10px;
+    margin: 0 .3rem;
+}
