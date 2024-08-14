@@ -219,3 +219,38 @@
 .card-details img:hover{
     filter: brightness(50%);
 }
+
+/* play area start */
+
+.play{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.play-left h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0B0223;
+    padding: .1rem 0;
+}
+.play-left p{
+    font-size: 1rem;
+    padding-top: 1rem;
+    font-size: .8rem;
+    font-weight: 400;
+    color: #514B62;
+}
+.play-right{
+    width: 50%;
+    position: relative;
+}
+.play-right img{
+    width: 100%;
+}
+.play-right .img{
+    width: 40%;
+    position: absolute;
+    top: 62%;
+    right: 75%;
+}

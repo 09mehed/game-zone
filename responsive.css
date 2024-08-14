@@ -34,4 +34,14 @@
     .watch-now {
         display: none;
     }
+    .play{
+        flex-direction: column;
+    }
+    .play-left{
+        text-align: center;
+    }
+    .play-right{
+        width: 80%;
+        padding-top: 30px;
+    }
 }
