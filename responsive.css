@@ -44,4 +44,19 @@
         width: 80%;
         padding-top: 30px;
     }
+    .play-game{
+        flex-direction: column-reverse;
+    }
+    .play-game-left{
+        width: 100%;
+        text-align: center;
+    }
+    .play-game-right{
+        width: 80%;
+        padding-top: 40px;
+    }
+    .category{
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
 }
